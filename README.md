@@ -1,6 +1,17 @@
-# tutorial-ai4science-fluidflow
+# Introduction
 
-# Notes on opening notebooks in Google Colab
+This repo contains tutorial of mahine learning (ML) applications in fluid flows and climate science, under the umberlla of AI for Scinece. The ML tutorials are in IPython notebook formats, written using [Jupyter](https://jupyter.org/). JupyterLab or Google Colab is the recommended environement for running the notebooks and further development. The notebooks are meant to be used as a platform for further development, as a stepping stone. Although, the applications are for fluid flows, the problems are general regression problems which can be extended to a wide range of science fields.
+
+Author: Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory)
+
+Contributors:
+* Matt Norman (Oak Ridge National Laboratory)
+
+# Running the notebooks
+
+Mainly, two environemnts are recommended
+
+## Notes on opening notebooks in Google Colab
 
 * Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muralikrishnangm/tutorial-ai4science-fluidflow.git) for each example. Click this badge to open the notebook in Google Colab.
 * Access to notebook - should be OK when the repo is public
@@ -10,12 +21,14 @@
   1. your Google Drive: `File -> Save a copy in Drive`
   2. your GitHub: `File -> Save a copy in GitHub`
 
-# Notes on opening in OLCF JupyterLab
+## Notes on opening in JupyterLab
 
-[OLCF JupyterLab](https://jupyter.olcf.ornl.gov/)
+The notes below are curated for a tutorial at Oak Ridge Leadership Computing Facility (OLCF). Nonetheless, a local or server version of JupyterLab would follow the same procedure.
 
-* **NOTE**: The OLCF JupyterLab is free but VERY limited resource. Please try your best to use Google Colab and opt for this option only if necessary.
-* Sign-in using your OLCF credentials (tthe one you use for logging in to the OLCF machines).
+The JupyetLab environment at OLCF can be accessed through [OLCF JupyterLab](https://jupyter.olcf.ornl.gov/). All members of currently enabled OLCF projects have access to the OLCF JupyterLab (through JupyterHub). Detailed documentation can be found [here](https://docs.olcf.ornl.gov/services_and_applications/jupyter/overview.html#jupyter-at-olcf).
+
+* **IMPORTANT**: The OLCF JupyterLab is free to use for all members but it is a VERY limited resource. Please try your best to use Google Colab and opt for this option only if necessary.
+* Sign-in using your OLCF credentials (the one used for logging in to the OLCF machines, not myOLCF).
 * When selecting the options for the Labs, select the one with the GPU:
 ```
   Slate - GPU Lab
