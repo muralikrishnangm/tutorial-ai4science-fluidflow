@@ -9,9 +9,14 @@ Contributors:
 
 # Running the notebooks
 
-Mainly, two environemnts are recommended
+Mainly, two environemnts are recommended:
 
-## Notes on opening notebooks in Google Colab
+1. [Google Colab](https://colab.research.google.com/)
+2. [JupyterLab](https://github.com/jupyterlab/jupyterlab)
+
+See below for details.
+
+## Opening notebooks in Google Colab
 
 * Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muralikrishnangm/tutorial-ai4science-fluidflow.git) for each example. Click this badge to open the notebook in Google Colab.
 * Access to notebook - should be OK when the repo is public
@@ -21,7 +26,7 @@ Mainly, two environemnts are recommended
   1. your Google Drive: `File -> Save a copy in Drive`
   2. your GitHub: `File -> Save a copy in GitHub`
 
-## Notes on opening in JupyterLab
+## Opening in JupyterLab
 
 The notes below are curated for a tutorial at Oak Ridge Leadership Computing Facility (OLCF). Nonetheless, a local or server version of JupyterLab would follow the same procedure.
 
@@ -44,7 +49,18 @@ The JupyetLab environment at OLCF can be accessed through [OLCF JupyterLab](http
 ```
 * Follow the instructions in this README file. Clicking the highlighted text for each notebook should open the notebook in a new tab. If it doesnot work, please open the notebooks directly from the file browser.
 
-# Example 1
+# Examples
+
+Below are examples for getting started with ML application for general scientific problems. Here is an outline of the examples:
+
+* We start with solving a simple regression problem using Keras.
+* Next we tackle a more complex problem of forming surrogate models for emulating the non-linear behavior of fluid flow variables using Keras (solving PDEs).
+* We implemnet the above using PyTorch.
+* The above PyTorch surrogate model is coupled with the fluid flow solver.
+
+Follow each example for more details.
+
+## Example 1
 
 * Open the notebook [0_tanh.ipynb](0_tanh.ipynb)
 
