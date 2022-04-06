@@ -66,15 +66,29 @@ Follow each example for more details.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muralikrishnangm/tutorial-ai4science-fluidflow/blob/main/0_tanh.ipynb)
 
+
+
 ## Example 2
 
 * Open the notebook [1_miniWeatherML_supercell_NN_Keras.ipynb](1_miniWeatherML_supercell_NN_Keras.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muralikrishnangm/tutorial-ai4science-fluidflow/blob/main/1_miniWeatherML_supercell_NN_Keras.ipynb)
 
+
+
 ## Example 3
 
+* Open the notebook [2_miniWeatherML_supercell_NN_PyTorch.ipynb](2_miniWeatherML_supercell_NN_PyTorch.ipynb)
 
-## Example 4
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muralikrishnangm/tutorial-ai4science-fluidflow/blob/main/2_miniWeatherML_supercell_NN_PyTorch.ipynb)
 
-Reference: [Same Partee's video on "Machine Learning for HPC Simulations: Using PyTorch, TensorFlow in Fortran, C, and C++ with SmartSim"](https://www.olcf.ornl.gov/calendar/userconcall-mar2022)
+
+
+## Example 4 (TBD)
+
+* Link to sample PyTorch coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
+
+* Link to weather simulation solver: [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
+
+* Distributed Client-Server implementation: [SmartSim](https://github.com/CrayLabs/SmartSim.git)
+    - Reference: Same Partee's presentation at OLCF on ["Machine Learning for HPC Simulations: Using PyTorch, TensorFlow in Fortran, C, and C++ with SmartSim"](https://www.olcf.ornl.gov/calendar/userconcall-mar2022)
