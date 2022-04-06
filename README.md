@@ -51,10 +51,10 @@ The JupyetLab environment at OLCF can be accessed through [OLCF JupyterLab](http
 
 Below are examples for getting started with ML application for general scientific problems. Here is an outline of the examples:
 
-* We start with solving a simple regression problem using Keras.
-* Next we tackle a more complex problem of forming surrogate models for emulating the non-linear behavior of fluid flow variables using Keras (solving PDEs).
-* We implemnet the above using PyTorch.
-* The above PyTorch surrogate model is coupled with the fluid flow solver.
+1. We start with solving a simple regression problem using Keras.
+2. Next we tackle a more complex problem of forming surrogate models for emulating the non-linear behavior of fluid flow variables using Keras (solving PDEs).
+3. We implemnet the above using PyTorch.
+4. The above PyTorch surrogate model is coupled with the fluid flow solver.
 
 Follow each example for more details.
 
