@@ -2,6 +2,7 @@
 
 # Notes on opening notebooks in Google Colab
 
+* Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muralikrishnangm/tutorial-ai4science-fluidflow.git) for each example. Click this badge to open the notebook in Google Colab.
 * Access to notebook - should be OK when the repo is public
 * Lookout for Pop-up blocker
 * Need to have a Google account to run the notebook
