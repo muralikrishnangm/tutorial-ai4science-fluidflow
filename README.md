@@ -7,16 +7,12 @@ Author: Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory)
 Contributors:
 * Matt Norman (Oak Ridge National Laboratory)
 
-
-
 # Running the notebooks
 
 Mainly, two environemnts are recommended:
 
 1. [Google Colab](https://colab.research.google.com/)
 2. [JupyterLab](https://github.com/jupyterlab/jupyterlab)
-
-See below for details.
 
 ## Opening notebooks in Google Colab
 
