@@ -14,6 +14,8 @@ Mainly, two environemnts are recommended:
 1. [Google Colab](https://colab.research.google.com/)
 2. [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 
+**TIP**: Use Table of Contents in the notebooks to get a big picture view of the ML training procedure. Both Google Colab and JupyterLab automatically has a Table of Content for all the cells in the notebook. Check it out on the toolbar on the left side. You can click on the sections to go to the corresponding place in the notebook.
+
 ## Opening notebooks in Google Colab
 
 * Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muralikrishnangm/tutorial-ai4science-fluidflow.git) for each example. Click this badge to open the notebook in Google Colab.
