@@ -42,7 +42,7 @@ Here are some basics of running the IPython notebooks. Mainly, two environments 
   1. your Google Drive: `File -> Save a copy in Drive`
   2. your GitHub: `File -> Save a copy in GitHub`
 
-## Opening in JupyterLab
+## Opening notebooks in JupyterLab
 
 The notes below are curated for a tutorial at Oak Ridge Leadership Computing Facility (OLCF). Nonetheless, a local or server version of JupyterLab would follow the same procedure.
 
