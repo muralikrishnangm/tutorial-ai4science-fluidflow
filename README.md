@@ -11,9 +11,7 @@ Contributors:
 
 For the fluid flow application, we will formulate ML surrogate models for a subcomponent of a candidate weather simulation - [supercell test case](https://en.wikipedia.org/wiki/Supercell). Specifically, we will emulate the cloud microphysics in the simulation (temperature, water vapor, cloud water, precipitation/rain, etc.) which is traditionally solved using the [Kessler scheme](https://doi.org/10.1002/2015MS000435) and its varients. A sample 2D flow simulation of the supercell test case using the [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git) app is shown below.
 
-<!-- <img src="https://www.dropbox.com/s/2kwm3ewjfwxe4am/supercell_p3_2d_hires_new.gif?raw=1" alt="supercell movie" width="500"/> -->
-
-![supercell movie](https://www.dropbox.com/s/2kwm3ewjfwxe4am/supercell_p3_2d_hires_new.gif?raw=1)
+![supercell movie](https://mrnorman.github.io/supercell_miniWeatherML.gif)
 
 We will use data generated from the [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git) app for training the surrogate models ([Examples 2-3](#example2)) and also deploying the ML model back to the solver ([Examples 4](#example4)). More details on the surrogate model will be discussed in the example notebooks.
 
