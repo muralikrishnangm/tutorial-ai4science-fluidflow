@@ -1,20 +1,35 @@
 # Introduction
 
-This repo contains tutorial of mahine learning (ML) applications in fluid flows and climate science, under the umberlla of AI for Scinece. The ML tutorials are in IPython notebook formats, written using [Jupyter](https://jupyter.org/). JupyterLab or Google Colab is the recommended environement for running the notebooks and further development. The notebooks are meant to be used as a platform for further development, as a stepping stone. Although, the applications are for fluid flows, the problems are general regression problems which can be extended to a wide range of science fields.
+This repo contains tutorial of mahine learning (ML) applications in fluid flows and climate science, under the umberlla of AI for Scinece. We will start with a simple regression problem ([Example 1](#example1)) and then translate to more complex fluid flow problems ([Examples 2-4](#example2)). The ML tutorials are in IPython notebook formats, written using [Jupyter](https://jupyter.org/). JupyterLab or Google Colab is the recommended environement for running the notebooks and further development. The notebooks are meant to be used as a platform for further development, as a stepping stone. Although, the applications are for fluid flows, the problems are general regression problems which can be extended to a wide range of science fields.
 
 Author: Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory)
 
 Contributors:
 * Matt Norman (Oak Ridge National Laboratory)
 
+## Fluid flow application
+
+For the fluid flow application, we will formulate ML surrogate models for a subcomponent of a candidate weather simulation - [supercell test case](https://en.wikipedia.org/wiki/Supercell). Specifically, we will emulate the cloud microphysics in the simulation (temperature, water vapor, cloud water, precipitation/rain, etc.) which is traditionally solved using the [Kessler scheme](https://doi.org/10.1002/2015MS000435) and its varients. A sample 2D flow simulation of the supercell test case using the [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git) app is shown below.
+
+![supercell movie](docs/supercell_p3_2d_hires.gif "Supercell")
+
+We will use data generated from the [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git) app for training the surrogate models ([Examples 2-3](#example2)) and also deploying the ML model back to the solver ([Examples 4](#example4)). More details on the surrogate model will be discussed in the example notebooks.
+
 # Running the notebooks
 
-Mainly, two environemnts are recommended:
+Here are some basics of running the IPython notebooks. Mainly, two environemnts are recommended:
 
 1. [Google Colab](https://colab.research.google.com/)
 2. [JupyterLab](https://github.com/jupyterlab/jupyterlab)
 
+* To run the cells, use the different options in the `Run` option in the toolbar (at the top).
+
 **TIP**: Use Table of Contents in the notebooks to get a big picture view of the ML training procedure. Both Google Colab and JupyterLab automatically has a Table of Content for all the cells in the notebook. Check it out on the toolbar on the left side. You can click on the sections to go to the corresponding place in the notebook.
+
+**TIP**: You can convert the notebooks to executable scripts (Python) using [jupyter nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html#executable-script)
+```
+    jupyter nbconvert --to script my_notebook.ipynb
+```
 
 ## Opening notebooks in Google Colab
 
@@ -60,7 +75,7 @@ Below are examples for getting started with ML application for general scientifi
 
 Follow each example for more details.
 
-## Example 1
+## <a name="example1"></a>Example 1
 
 * Open the notebook [0_tanh.ipynb](0_tanh.ipynb)
 
@@ -68,7 +83,7 @@ Follow each example for more details.
 
 
 
-## Example 2
+## <a name="example2"></a>Example 2
 
 * Open the notebook [1_miniWeatherML_supercell_NN_Keras.ipynb](1_miniWeatherML_supercell_NN_Keras.ipynb)
 
@@ -76,7 +91,7 @@ Follow each example for more details.
 
 
 
-## Example 3
+## <a name="example3"></a>Example 3
 
 * Open the notebook [2_miniWeatherML_supercell_NN_PyTorch.ipynb](2_miniWeatherML_supercell_NN_PyTorch.ipynb)
 
@@ -84,7 +99,7 @@ Follow each example for more details.
 
 
 
-## Example 4 (TBD)
+## <a name="example4"></a>Example 4 (TBD)
 
 * Link to sample PyTorch coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
 
