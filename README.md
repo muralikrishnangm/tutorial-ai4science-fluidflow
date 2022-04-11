@@ -6,7 +6,7 @@ This repo contains a tutorial on machine learning (ML) applications in fluid flo
 Author: Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory), https://sites.google.com/view/muraligm/
 
 Contributors:
-* Muralikrishnan Gopalakrishnan Meena (Oak Ridge National Laboratory)
+* Murali Gopalakrishnan Meena
 * Matt Norman (Oak Ridge National Laboratory), https://mrnorman.github.io/
 
 ## Fluid flow application
@@ -39,8 +39,7 @@ Here are some basics of running the IPython notebooks. Mainly, two environments 
 
 ## Opening notebooks in Google Colab
 
-* Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/muralikrishnangm/tutorial-ai4science-fluidflow.git) for each example. Click this badge to open the notebook in Google Colab.
-* Access to notebook - should be OK when the repo is public
+* Lookout for the badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muralikrishnangm/tutorial-ai4science-fluidflow/blob/main/HelloWorld.ipynb) for each example. Click this badge to open the notebook in Google Colab.
 * Lookout for Pop-up blocker
 * Need to have a Google account to run the notebook
 * To save changes made, you need to save a copy in one of the following
