@@ -126,11 +126,15 @@ Follow each example for more details.
 
 
 
-## <a name="example4"></a>Example 4 (Coming Soon)
+## <a name="example4"></a>Example 4
 
-* Link to a sample PyTorch coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
+* **NOTE**: This example is still a work in progress.
 
 * Link to the weather simulation solver: [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
+
+* Link to a sample PyTorch model coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
+
+* PyTorch model in miniWeatherML app: [miniWeatherML/mgm/main](https://github.com/mrnorman/miniWeatherML/tree/mgm/main)
 
 * A distributed client-server implementation: [SmartSim](https://github.com/CrayLabs/SmartSim.git)
     - Reference: Same Partee's presentation at OLCF on ["Machine Learning for HPC Simulations: Using PyTorch, TensorFlow in Fortran, C, and C++ with SmartSim"](https://www.olcf.ornl.gov/calendar/userconcall-mar2022)
