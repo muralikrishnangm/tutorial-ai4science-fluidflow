@@ -134,7 +134,9 @@ Follow each example for more details.
 
 * Link to a sample PyTorch model coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
 
-* PyTorch model in miniWeatherML app: [miniWeatherML/mgm/main](https://github.com/mrnorman/miniWeatherML/tree/mgm/main)
+* *PyTorch model in miniWeatherML app: [miniWeatherML/mgm/main](https://github.com/mrnorman/miniWeatherML/tree/mgm/main)*
+
+* PINNI inference on miniWeatherML app : [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
 
 * A distributed client-server implementation: [SmartSim](https://github.com/CrayLabs/SmartSim.git)
     - Reference: Same Partee's presentation at OLCF on ["Machine Learning for HPC Simulations: Using PyTorch, TensorFlow in Fortran, C, and C++ with SmartSim"](https://www.olcf.ornl.gov/calendar/userconcall-mar2022)
