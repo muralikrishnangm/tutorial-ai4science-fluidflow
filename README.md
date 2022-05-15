@@ -128,17 +128,22 @@ Follow each example for more details.
 
 ## <a name="example4"></a>Example 4
 
+* Online inference (also called *a posteriori* tests in turbulence modeling) of ML models in the C++ flow solver [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
+
 * **NOTE**: This example is still a work in progress.
 
-* Link to the weather simulation solver: [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
+* Link to a sample model coupling with C++: 
+    1. For PyTorch: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
+        - *PyTorch model in miniWeatherML app: [miniWeatherML/mgm/main](https://github.com/mrnorman/miniWeatherML/tree/mgm/main)*
+    3. For Keras (or TensorFlow): [tensorflow-cpp-example](https://github.com/muralikrishnangm/tensorflow-cpp-example.git)
 
-* Link to a sample PyTorch model coupling with C++: [pytorch-cpp-example](https://github.com/muralikrishnangm/pytorch-cpp-example.git)
+* A portable online inference of neural networks in C++: [PONNI](https://github.com/mrnorman/ponni.git)
+    - PONNI inference on miniWeatherML app : [miniWeatherML-ponni](https://github.com/mrnorman/miniWeatherML/tree/main/experiments/supercell_micro_surrogate)
+    - See [3_load_model_parameters.ipynb](3_load_model_parameters.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/muralikrishnangm/tutorial-ai4science-fluidflow/blob/main/3_load_model_parameters.ipynb)
+ for different ways to extract the learnable model parameters (e.g. weights, biases) from Keras and PyTorch models
 
-* *PyTorch model in miniWeatherML app: [miniWeatherML/mgm/main](https://github.com/mrnorman/miniWeatherML/tree/mgm/main)*
-
-* PINNI inference on miniWeatherML app : [miniWeatherML](https://github.com/mrnorman/miniWeatherML.git)
-
-* A distributed client-server implementation: [SmartSim](https://github.com/CrayLabs/SmartSim.git)
+* A distributed client-server implementation by CrayLabs: [SmartSim](https://github.com/CrayLabs/SmartSim.git)
     - Reference: Same Partee's presentation at OLCF on ["Machine Learning for HPC Simulations: Using PyTorch, TensorFlow in Fortran, C, and C++ with SmartSim"](https://www.olcf.ornl.gov/calendar/userconcall-mar2022)
 
 [Back to Top](#introduction)
+
