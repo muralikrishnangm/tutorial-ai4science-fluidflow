@@ -50,24 +50,30 @@ Here are some basics of running the IPython notebooks. Mainly, two environments 
 
 The notes below are curated for a tutorial at Oak Ridge Leadership Computing Facility (OLCF). Nonetheless, a local or server version of JupyterLab would follow the same procedure.
 
-The JupyetLab environment at OLCF can be accessed through [OLCF JupyterLab](https://jupyter.olcf.ornl.gov/). All members of currently enabled OLCF projects have access to the OLCF JupyterLab (through JupyterHub). Detailed documentation can be found [here](https://docs.olcf.ornl.gov/services_and_applications/jupyter/overview.html#jupyter-at-olcf).
-
-* **IMPORTANT**: The OLCF JupyterLab is free to use for all members but it is a VERY limited resource. Please try your best to use Google Colab and opt for this option only if necessary.
-* Sign in using your OLCF credentials (the one used for logging in to the OLCF machines).
-* When selecting the options for the Labs, select the one with the GPU:
+1. Start Jupyterlab:
+  * Normal Jupyter installation:
+    * Run the following on terminal to open the user interface in local internet browser
+     ```
+      jupyter-lab
+     ```
+  * For OLCF:
+    * The JupyetLab environment at OLCF can be accessed through [OLCF JupyterLab](https://jupyter.olcf.ornl.gov/). All members of currently enabled OLCF projects have access to the OLCF JupyterLab (through JupyterHub). Detailed documentation can be found [here](https://docs.olcf.ornl.gov/services_and_applications/jupyter/overview.html#jupyter-at-olcf).
+    * **IMPORTANT**: The OLCF JupyterLab is free to use for all members but it is a VERY limited resource. Please try your best to use Google Colab and opt for this option only if necessary.
+    * Sign in using your OLCF credentials (the one used for logging in to the OLCF machines).
+    * When selecting the options for the Labs, select the one with the GPU:
+     ```
+      Slate - GPU Lab
+      JupyterLab 3 | 16 CPU | 16GB MEM | V100 GPU
+     ```
+2. Clone this repo
 ```
-  Slate - GPU Lab
-  JupyterLab 3 | 16 CPU | 16GB MEM | V100 GPU
+ git clone git@github.com:muralikrishnangm/tutorial-ai4science-fluidflow.git
 ```
-* Clone this repo
-```
-  git clone git@github.com:muralikrishnangm/tutorial-ai4science-fluidflow.git
-```
-* Open this [README.md](README.md) file using `Markdown Preview`:
+3. Open this [README.md](README.md) file using `Markdown Preview`:
 ```
   [Right-click-file] -> Open With -> Markdown Preview
 ```
-* Follow the instructions in this README file. Clicking the highlighted text for each notebook should open the notebook in a new tab. If it does not work, please open the notebooks directly from the file browser.
+4. Follow the instructions in this README file. Clicking the highlighted text for each notebook should open the notebook in a new tab. If it does not work, please open the notebooks directly from the file browser.
 
 [Back to Top](#introduction)
 
